@@ -27,11 +27,13 @@ body{
 
 
 
-/*Index*/
+/*Index*/ /*Menu*/
 .cabecalho ul{
     overflow: hidden;
     list-style-type: none;
     margin: 10px 10px;
+    float: right;
+    padding-right: 30px;
 }
 
 .cabecalho li{
@@ -55,6 +57,33 @@ body{
     transition: 0.7s;
 }
 
+/*Container*/
+.container{
+    padding: 100px 30px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container p{
+    text-align: justify;
+}
+
+/*Rodape*/
+.rodape{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #2C1320;
+}
+
+.rodape a:hover{
+    color: #0D324D;
+    text-decoration: underline;
+}
 
 /*Página Login*/
 .box{
